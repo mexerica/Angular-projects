@@ -1,0 +1,23 @@
+.small-card {
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.photo {
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr { 
+    margin-top: 10px;
+}
