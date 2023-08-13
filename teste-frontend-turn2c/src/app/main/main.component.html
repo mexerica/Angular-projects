@@ -1,0 +1,22 @@
+<div id="nav-bar">
+    <form>
+        <label for="dogs">Raça: </label>
+        <select name="dogs" id="dogs">
+            <option value="todas">Todas</option>
+            <option value="nenhuma">Nenhuma</option>
+        </select>
+    </form>
+    <a routerLink="/perfil">
+        <button class="home" [routerLink] = "['Perfil']">
+            <img src="https://th.bing.com/th/id/OIP._3QPMJ7E-_rbllGOe7OeLgHaHa?pid=ImgDet&rs=1" width="24" height="24" alt=""/>
+            Perfil
+        </button>
+    </a>
+</div>
+<hr />
+<div id="dogImages"><img *ngFor="let dog of dogsData" src='{{dog}}' width="180" height="180"/></div>
+<div id="bottom">
+    <p>Página: {{this.pages}}</p>
+    <button class="arrowbtn" (click)="nextPage(-1)"><i class="arrow left"></i></button>
+    <button class="arrowbtn" (click)="nextPage(1)"><i class="arrow right"></i></button>
+</div>

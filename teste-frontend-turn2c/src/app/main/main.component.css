@@ -1,0 +1,48 @@
+.home {
+    border: none;
+    border-radius: 20%;
+}
+.home img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#nav-bar { 
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+
+#bottom {
+    display: flex;
+    position: relative;
+    top: 50px;
+    line-height: 10px;
+}
+
+.arrowbtn {
+    padding: 7px;
+    width: 40px;
+    height: 40px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+#dogImages {
+    width: 800px;
+}
